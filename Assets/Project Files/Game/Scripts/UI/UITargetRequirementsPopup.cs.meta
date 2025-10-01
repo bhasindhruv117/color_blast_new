@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 9a99a48296fb2d94bb53ae709d61dd25
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 313175
+  packageName: Blast Puzzle | Template + Editor
+  packageVersion: 1.0.6
+  assetPath: Assets/Project Files/Game/Scripts/UI/UITargetRequirementsPopup.cs
+  uploadId: 759273

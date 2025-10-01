@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: fab9b8e0d3ab24548814d49d4799195f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 313175
+  packageName: Blast Puzzle | Template + Editor
+  packageVersion: 1.0.6
+  assetPath: Assets/Project Files/Game/Scripts/Dev Panel/Editor/DevPanelInitModuleEditor.cs
+  uploadId: 759273

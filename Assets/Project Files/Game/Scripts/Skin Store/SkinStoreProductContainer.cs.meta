@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6bca6b331f57ab44599dca7235d3749f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 313175
+  packageName: Blast Puzzle | Template + Editor
+  packageVersion: 1.0.6
+  assetPath: Assets/Project Files/Game/Scripts/Skin Store/SkinStoreProductContainer.cs
+  uploadId: 759273

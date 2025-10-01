@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8634c5cf5896bb84ca6474552cf85648, type: 3}
+  m_Name: Audio Clips
+  m_EditorClassIdentifier: 
+  figurePlace: {fileID: 8300000, guid: d808a5dc73a632d4ea0a158629dbf1ca, type: 3}
+  figurePick: {fileID: 8300000, guid: d808a5dc73a632d4ea0a158629dbf1ca, type: 3}
+  lineCollected: {fileID: 8300000, guid: 939dcffa47eab04478f99694b074f059, type: 3}
+  levelComplete: {fileID: 8300000, guid: 96f0e9f75f3ed234499682c19af664eb, type: 3}
+  levelFail: {fileID: 8300000, guid: 56ebeec80cf6b9d4496a6600a3393543, type: 3}
+  levelRevive: {fileID: 8300000, guid: becad5c5bf976414398c0aaf76040e35, type: 3}
+  requirementMet: {fileID: 8300000, guid: 1241c180ad574404590d97a6644a8811, type: 3}
+  buttonSound: {fileID: 8300000, guid: 43778771ca132fe44baa768ab4be8bc2, type: 3}

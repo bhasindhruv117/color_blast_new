@@ -1,0 +1,594 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a55165a3f113b3429fe2604be454e25, type: 3}
+  m_Name: Level Database
+  m_EditorClassIdentifier: 
+  levels:
+  - {fileID: 11400000, guid: 9696e3cbb57ec6442971dad64c83c59b, type: 2}
+  - {fileID: 11400000, guid: 8fce3a838ec54d74e9a32ef118afa0ec, type: 2}
+  - {fileID: 11400000, guid: 2f4521c0757e8924481ea20bb3369e96, type: 2}
+  - {fileID: 11400000, guid: ee523868811fedd4aa6fa16ceeca0162, type: 2}
+  - {fileID: 11400000, guid: c9961cd379e7cef43866013b03d62422, type: 2}
+  - {fileID: 11400000, guid: 0da7a40e8f8c1384f8134706091b9261, type: 2}
+  - {fileID: 11400000, guid: 65a51bb122b9e534595de92ce767f5d3, type: 2}
+  - {fileID: 11400000, guid: 4ccce86a58a8e574abfd3df33a37c0c6, type: 2}
+  - {fileID: 11400000, guid: 47880ff18685eae408a49becc042b3b0, type: 2}
+  - {fileID: 11400000, guid: a5cd7ae213837834a9fcb195ccfe680a, type: 2}
+  - {fileID: 11400000, guid: a44950bb38b20f144b67586673a8b3e7, type: 2}
+  - {fileID: 11400000, guid: 0df6edf0fe2fec9478e57063511fcea3, type: 2}
+  - {fileID: 11400000, guid: 6e5ee81de108ba947a14b9035f603031, type: 2}
+  - {fileID: 11400000, guid: f301c899f9fd94945a1c028842436bfe, type: 2}
+  - {fileID: 11400000, guid: fd55b0dbb8519ff4280926066915dd22, type: 2}
+  - {fileID: 11400000, guid: ced90d7e5a42ce647ba36b54c436e01d, type: 2}
+  - {fileID: 11400000, guid: d50cc174a1d191b43837216561aaaced, type: 2}
+  - {fileID: 11400000, guid: 26b1870c1ad3b4b498d152a7a26dd63f, type: 2}
+  - {fileID: 11400000, guid: 9bd82b0952ee586469c6c294ea99ef46, type: 2}
+  - {fileID: 11400000, guid: c76f161c4796c674b9bdb12a617a1682, type: 2}
+  - {fileID: 11400000, guid: 4d101374b50076649a4c49e6069a2081, type: 2}
+  - {fileID: 11400000, guid: 21c1b2f5fb38614488e895d3df2eab29, type: 2}
+  - {fileID: 11400000, guid: 3cea07f8fe3edfc45881d0589da808a6, type: 2}
+  - {fileID: 11400000, guid: f8ebbba944cdc70418403dcee1d3213f, type: 2}
+  - {fileID: 11400000, guid: 80f0c72201319c1438e4b17d3bb0283b, type: 2}
+  - {fileID: 11400000, guid: 7bfae442866fe3b4da7bf7316690a5dd, type: 2}
+  - {fileID: 11400000, guid: a4b3ce2cac461ef469f4174696db9b02, type: 2}
+  - {fileID: 11400000, guid: e804738ac0d059249afe1ba6f08644f7, type: 2}
+  - {fileID: 11400000, guid: 106d3ee7d2d42584ca2d48083a61a805, type: 2}
+  - {fileID: 11400000, guid: cf02c8eea9fdb894baf4274bd0172e24, type: 2}
+  - {fileID: 11400000, guid: 39d0a2ba1bd280c4394c749bfe1412ed, type: 2}
+  - {fileID: 11400000, guid: 2c6c9e6d22743ee4ab987bbf7c03926d, type: 2}
+  - {fileID: 11400000, guid: 7e1da934ee7e5d34999650736d5c92ea, type: 2}
+  - {fileID: 11400000, guid: 73fb46a283b63e343b6fb5037ab7aea6, type: 2}
+  - {fileID: 11400000, guid: 2203afd654084034e87510cb9e2099be, type: 2}
+  - {fileID: 11400000, guid: ce240766fd2265947979afbe9c442162, type: 2}
+  - {fileID: 11400000, guid: 4e36e69e118cda548bd939bc4182ec95, type: 2}
+  - {fileID: 11400000, guid: ce42e16b44694ba40b098d949e21e268, type: 2}
+  - {fileID: 11400000, guid: 1863c34b0c3190f4f806325f3051c57e, type: 2}
+  - {fileID: 11400000, guid: 5a21f10317bec6748b00b8f01466b9dd, type: 2}
+  - {fileID: 11400000, guid: 9eb55b6386afa8e4d83d4ed3895fdb9a, type: 2}
+  - {fileID: 11400000, guid: 203d1ab81e9589747abbbd2c338d4c00, type: 2}
+  - {fileID: 11400000, guid: ab81966f17d20f0488d5f07c734575d3, type: 2}
+  - {fileID: 11400000, guid: fc84bb3345940f446b0ea15b264de023, type: 2}
+  - {fileID: 11400000, guid: be97cf1828db7174caab22c7cb261146, type: 2}
+  - {fileID: 11400000, guid: 34ca0f16ed370cd479dda77a2f2e2340, type: 2}
+  - {fileID: 11400000, guid: 163d8be1ed11e5c459aaca720b6e0911, type: 2}
+  - {fileID: 11400000, guid: 954bafd9745155f4985d3b73b9b76a2a, type: 2}
+  - {fileID: 11400000, guid: e149f18460b5b644f9bb154df90a8ef2, type: 2}
+  - {fileID: 11400000, guid: 57adffc83657e9c479b7166cb90c9030, type: 2}
+  - {fileID: 11400000, guid: c6fbce62035419e48a9d3b3815ba78a3, type: 2}
+  - {fileID: 11400000, guid: 8f0b87314a9be034a9910d369ae8d523, type: 2}
+  - {fileID: 11400000, guid: 285baa03ba5a67e4b9acfa0f30c0a102, type: 2}
+  - {fileID: 11400000, guid: 3ca890728f9032945af4dd5dc2b620e3, type: 2}
+  - {fileID: 11400000, guid: c3f6caf4e8999d14a915c5fb11b6312c, type: 2}
+  - {fileID: 11400000, guid: d37ddd3872fc68b46958224ae995f426, type: 2}
+  - {fileID: 11400000, guid: 1f3a95a6e82459a4fb7cb28117db61b7, type: 2}
+  - {fileID: 11400000, guid: 2cb01d5373735bf42a0c49bbe097f4d3, type: 2}
+  - {fileID: 11400000, guid: e059244a6b9fa454f9ed4a0ec8ee5697, type: 2}
+  - {fileID: 11400000, guid: 71e7a182a19bf604eb76a956926cf112, type: 2}
+  - {fileID: 11400000, guid: ee7ad0842cfd6ac4ba0df921c17aedd8, type: 2}
+  - {fileID: 11400000, guid: 47fa69a934cf3af448510ed770c5c463, type: 2}
+  - {fileID: 11400000, guid: 648de6439fcc31d408fb62af654b9fbb, type: 2}
+  - {fileID: 11400000, guid: 6ab25aeb582a84c44a663dcd1255bfaf, type: 2}
+  - {fileID: 11400000, guid: df8f7ac1e651413448c50ac2b6d20b2b, type: 2}
+  - {fileID: 11400000, guid: c160c531aabf8154e82dd01392a113d0, type: 2}
+  - {fileID: 11400000, guid: 0ea94dac2c4e4994a9b0f841afa4d0dc, type: 2}
+  - {fileID: 11400000, guid: 49e425d19b061354895b4ab9608cce24, type: 2}
+  - {fileID: 11400000, guid: 638975c1284041640b07869940b721f8, type: 2}
+  - {fileID: 11400000, guid: 9a3752cffe6bd9e4a822147bd83b9329, type: 2}
+  - {fileID: 11400000, guid: ee2f50cc870643040b655df2228f47bd, type: 2}
+  - {fileID: 11400000, guid: d46cf87f69c5c7c4ea149dd7ffbccde3, type: 2}
+  - {fileID: 11400000, guid: c539f71f92e674d4786e0c59f49e70b0, type: 2}
+  - {fileID: 11400000, guid: c3deff4cda91bff4b971e596fca4d1ec, type: 2}
+  - {fileID: 11400000, guid: 0f34f19b6a9d533419174bda91fe5579, type: 2}
+  - {fileID: 11400000, guid: a329f6460a4def84480d57ba24ba65af, type: 2}
+  - {fileID: 11400000, guid: 7568b65ab58585348b097ecbd0c9e0a3, type: 2}
+  - {fileID: 11400000, guid: 5cabd31cc61be074ab484b580e672f26, type: 2}
+  - {fileID: 11400000, guid: 44aff5e8a9ce3e145b3cc288fcb90417, type: 2}
+  - {fileID: 11400000, guid: 7ce6072ddd7eb0e4eb9d823ebe9232ff, type: 2}
+  - {fileID: 11400000, guid: 85a77326c267cc7459e7e028891452ba, type: 2}
+  - {fileID: 11400000, guid: 366103d107aa9d74cb38dae39e54e74f, type: 2}
+  - {fileID: 11400000, guid: a282e96bfd3b18945aed6d3decb6041b, type: 2}
+  - {fileID: 11400000, guid: 170b04399f3b814479b99e1c64ff971b, type: 2}
+  - {fileID: 11400000, guid: ff1e3130ca0a73e48b28b6d54abeed67, type: 2}
+  - {fileID: 11400000, guid: 0cb82bd32395dc94caaa2ea6793fcb63, type: 2}
+  - {fileID: 11400000, guid: 5fee2de46937dc74ea6e4db0c1b35837, type: 2}
+  - {fileID: 11400000, guid: 2a0da42c77e8d1c45a4c283bc8c66260, type: 2}
+  - {fileID: 11400000, guid: 78c2f2fd73e24824a8fa7e53f5a36122, type: 2}
+  - {fileID: 11400000, guid: 94b339348d4819341846f15576b160ad, type: 2}
+  - {fileID: 11400000, guid: dfafa13d4c96c424482490f8cd55f900, type: 2}
+  - {fileID: 11400000, guid: 1e82934fcdd47874fb2f8b19e12ed697, type: 2}
+  - {fileID: 11400000, guid: 3942b9cf4191bc84aa75988b56854041, type: 2}
+  - {fileID: 11400000, guid: 737a29b230b70af4db48e9be07f7bc5a, type: 2}
+  - {fileID: 11400000, guid: 1f5e2ccb29bb71e4781452430b07310a, type: 2}
+  - {fileID: 11400000, guid: 6f82aaf01ac9ee94db392557587e89a4, type: 2}
+  - {fileID: 11400000, guid: bf1104a90ff3fa240bf5c64056dc216c, type: 2}
+  - {fileID: 11400000, guid: 38adc4a0560809746acff3849b042f64, type: 2}
+  - {fileID: 11400000, guid: d131278e10ed4104897bcb727280fa4a, type: 2}
+  - {fileID: 11400000, guid: a9ce0db3b31920a46a497839f9e904b8, type: 2}
+  - {fileID: 11400000, guid: b68abd13be2b63a4c968c459eeca0375, type: 2}
+  - {fileID: 11400000, guid: ed5f65b7fe45f9b4085ea348b9ca6b8b, type: 2}
+  - {fileID: 11400000, guid: 796cfa81d6005764f9a666381463a292, type: 2}
+  - {fileID: 11400000, guid: d4ddc0187b1d8f941807fa19361b85da, type: 2}
+  - {fileID: 11400000, guid: ff43fe5cbcc14404d8abe6ff9d4402e9, type: 2}
+  - {fileID: 11400000, guid: 3332dd4c19f9cd344aaee07a393cf27b, type: 2}
+  - {fileID: 11400000, guid: a02b159c66d9c0344894624f260002d1, type: 2}
+  - {fileID: 11400000, guid: 760a5a90fb05263479e20ba32cbd10d7, type: 2}
+  - {fileID: 11400000, guid: fa9ba19496de0614caea9331af5bc8dd, type: 2}
+  - {fileID: 11400000, guid: df5d871b22c89674285010b928dea5d7, type: 2}
+  - {fileID: 11400000, guid: 5221c2d009a136c499bf731cfa52fada, type: 2}
+  - {fileID: 11400000, guid: bd082bb7263149342945adcb3767daa7, type: 2}
+  - {fileID: 11400000, guid: 23ad74f1f26a216468fa7751e49a9660, type: 2}
+  - {fileID: 11400000, guid: ebebdbc0d4125964b947571d59765622, type: 2}
+  - {fileID: 11400000, guid: d1fac8e16b5aa0847bd3074d6fc904e2, type: 2}
+  - {fileID: 11400000, guid: e33d98b509446d240bc3cae701497e2f, type: 2}
+  - {fileID: 11400000, guid: b1d0eebdd1e20374db31a01a09b3d593, type: 2}
+  - {fileID: 11400000, guid: b4d4cc1619b161e46bc462f4a7d580a5, type: 2}
+  - {fileID: 11400000, guid: 2a55dc56cfc86e748a173812b1420388, type: 2}
+  - {fileID: 11400000, guid: eebc47aa769bd604bb81224ec3b38cde, type: 2}
+  - {fileID: 11400000, guid: fac6e6886cfc25a4ba190d0933c0c6bf, type: 2}
+  - {fileID: 11400000, guid: af6bbe1cecd3e2c4d8c9615adb29c06f, type: 2}
+  - {fileID: 11400000, guid: cc6b1bb142f4f734c8e04544ccce998b, type: 2}
+  - {fileID: 11400000, guid: 75b25b105860a8843b7b776f1954bd36, type: 2}
+  - {fileID: 11400000, guid: cb351a869e03c3c42949981743053693, type: 2}
+  - {fileID: 11400000, guid: bdfd6f0fba6f294479f4829c68c3c9ff, type: 2}
+  - {fileID: 11400000, guid: 06016cb3372350d419d8092a17c74b83, type: 2}
+  - {fileID: 11400000, guid: 9cab3e8dce72dd849b6e1838e673274d, type: 2}
+  - {fileID: 11400000, guid: 080c9d0c77b543146b4648194e3f7510, type: 2}
+  - {fileID: 11400000, guid: a44b22cc9f3f5c747a7c3bae9c94b078, type: 2}
+  - {fileID: 11400000, guid: 175b671137cc2824780e629a8549327e, type: 2}
+  - {fileID: 11400000, guid: 6befc43a27dbbd94d8d1ff9e22a3bda8, type: 2}
+  - {fileID: 11400000, guid: 2ccc2008c1637d040a1d45eab51bc851, type: 2}
+  - {fileID: 11400000, guid: ea22e53acd8e3da4785a9f890eb9cf67, type: 2}
+  - {fileID: 11400000, guid: 7a90e9c64637b164f8a8b579caf1bcbb, type: 2}
+  - {fileID: 11400000, guid: 4f25c3edb5e7cbb43bed6a1c8292078e, type: 2}
+  - {fileID: 11400000, guid: 3fa743cd004454a40a5ff6e5c0695695, type: 2}
+  - {fileID: 11400000, guid: bbc19a5356e46844c8bcc8e00b296d5c, type: 2}
+  - {fileID: 11400000, guid: 4b0611a123c4fd649ae48ae063db1f4a, type: 2}
+  - {fileID: 11400000, guid: 1486fa971a5f15540821e2b799690029, type: 2}
+  - {fileID: 11400000, guid: afa7bbdfd95e2de42b548a0ff1bc8d1a, type: 2}
+  - {fileID: 11400000, guid: d750100572af1724abe61999f1d64c06, type: 2}
+  - {fileID: 11400000, guid: 4bd9b28ea3d8718408ea30926f36cef0, type: 2}
+  - {fileID: 11400000, guid: fa48594d8c318d842aa68cbb99826bd0, type: 2}
+  - {fileID: 11400000, guid: 71a5cc3aef8661c47bfeaeee1c14ee12, type: 2}
+  - {fileID: 11400000, guid: 9ce4353b335bba64293b21adf84b12f9, type: 2}
+  - {fileID: 11400000, guid: f716e6bc537ca1b429101266fc63f7c0, type: 2}
+  - {fileID: 11400000, guid: 2fe6f4147678f2347b0f8e8304070584, type: 2}
+  - {fileID: 11400000, guid: 10bc7ecc0f37f0f499b050677c49d542, type: 2}
+  - {fileID: 11400000, guid: f9f7e17e20ad33d4ea69970e7fae0f30, type: 2}
+  infiniteLevelData: {fileID: 11400000, guid: 86c0a8020a7f8384994e185266085d02, type: 2}
+  defaultSpawnAnimation: {fileID: 11400000, guid: 4c8ac12887fc8264c83f40eb1cc35c14, type: 2}
+  failAnimation: {fileID: 11400000, guid: 18c8488a48f47b1499fee49381f1f97b, type: 2}
+  figures:
+  - size: {x: 2, y: 2}
+    points:
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    activePoints: 4
+    minimumScore: 0
+    minimumLevel: 0
+    defaultWeight: 0
+  - size: {x: 3, y: 2}
+    points:
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    activePoints: 6
+    minimumScore: 0
+    minimumLevel: 0
+    defaultWeight: 0
+  - size: {x: 2, y: 3}
+    points:
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    activePoints: 6
+    minimumScore: 0
+    minimumLevel: 0
+    defaultWeight: 0
+  - size: {x: 1, y: 2}
+    points:
+    - isActive: 1
+    - isActive: 1
+    activePoints: 2
+    minimumScore: 0
+    minimumLevel: 0
+    defaultWeight: 1
+  - size: {x: 2, y: 1}
+    points:
+    - isActive: 1
+    - isActive: 1
+    activePoints: 2
+    minimumScore: 0
+    minimumLevel: 0
+    defaultWeight: 1
+  - size: {x: 1, y: 3}
+    points:
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    activePoints: 3
+    minimumScore: 0
+    minimumLevel: 0
+    defaultWeight: 1
+  - size: {x: 3, y: 1}
+    points:
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    activePoints: 3
+    minimumScore: 0
+    minimumLevel: 0
+    defaultWeight: 1
+  - size: {x: 1, y: 5}
+    points:
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    activePoints: 5
+    minimumScore: 0
+    minimumLevel: 0
+    defaultWeight: 1
+  - size: {x: 5, y: 1}
+    points:
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    activePoints: 5
+    minimumScore: 0
+    minimumLevel: 0
+    defaultWeight: 1
+  - size: {x: 1, y: 1}
+    points:
+    - isActive: 1
+    activePoints: 1
+    minimumScore: 0
+    minimumLevel: 0
+    defaultWeight: 0
+  - size: {x: 2, y: 2}
+    points:
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    - isActive: 0
+    activePoints: 3
+    minimumScore: 0
+    minimumLevel: 0
+    defaultWeight: 1
+  - size: {x: 2, y: 2}
+    points:
+    - isActive: 1
+    - isActive: 0
+    - isActive: 1
+    - isActive: 1
+    activePoints: 3
+    minimumScore: 0
+    minimumLevel: 0
+    defaultWeight: 1
+  - size: {x: 2, y: 2}
+    points:
+    - isActive: 0
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    activePoints: 3
+    minimumScore: 0
+    minimumLevel: 0
+    defaultWeight: 1
+  - size: {x: 2, y: 2}
+    points:
+    - isActive: 1
+    - isActive: 1
+    - isActive: 0
+    - isActive: 1
+    activePoints: 3
+    minimumScore: 0
+    minimumLevel: 0
+    defaultWeight: 1
+  - size: {x: 3, y: 3}
+    points:
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    activePoints: 9
+    minimumScore: 50
+    minimumLevel: 0
+    defaultWeight: 0
+  - size: {x: 3, y: 2}
+    points:
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    - isActive: 0
+    - isActive: 1
+    - isActive: 0
+    activePoints: 4
+    minimumScore: 100
+    minimumLevel: 0
+    defaultWeight: 1
+  - size: {x: 3, y: 2}
+    points:
+    - isActive: 0
+    - isActive: 1
+    - isActive: 0
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    activePoints: 4
+    minimumScore: 100
+    minimumLevel: 0
+    defaultWeight: 1
+  - size: {x: 2, y: 3}
+    points:
+    - isActive: 0
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    - isActive: 0
+    - isActive: 1
+    activePoints: 4
+    minimumScore: 100
+    minimumLevel: 0
+    defaultWeight: 1
+  - size: {x: 2, y: 3}
+    points:
+    - isActive: 1
+    - isActive: 0
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    - isActive: 0
+    activePoints: 4
+    minimumScore: 100
+    minimumLevel: 0
+    defaultWeight: 1
+  - size: {x: 3, y: 2}
+    points:
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    - isActive: 0
+    - isActive: 0
+    - isActive: 1
+    activePoints: 4
+    minimumScore: 0
+    minimumLevel: 0
+    defaultWeight: 1
+  - size: {x: 3, y: 2}
+    points:
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    - isActive: 0
+    - isActive: 0
+    activePoints: 4
+    minimumScore: 0
+    minimumLevel: 0
+    defaultWeight: 1
+  - size: {x: 3, y: 2}
+    points:
+    - isActive: 1
+    - isActive: 0
+    - isActive: 0
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    activePoints: 4
+    minimumScore: 0
+    minimumLevel: 0
+    defaultWeight: 1
+  - size: {x: 3, y: 2}
+    points:
+    - isActive: 0
+    - isActive: 0
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    activePoints: 4
+    minimumScore: 0
+    minimumLevel: 0
+    defaultWeight: 1
+  - size: {x: 2, y: 3}
+    points:
+    - isActive: 1
+    - isActive: 0
+    - isActive: 1
+    - isActive: 0
+    - isActive: 1
+    - isActive: 1
+    activePoints: 4
+    minimumScore: 0
+    minimumLevel: 0
+    defaultWeight: 1
+  - size: {x: 2, y: 3}
+    points:
+    - isActive: 0
+    - isActive: 1
+    - isActive: 0
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    activePoints: 4
+    minimumScore: 0
+    minimumLevel: 0
+    defaultWeight: 1
+  - size: {x: 2, y: 3}
+    points:
+    - isActive: 1
+    - isActive: 1
+    - isActive: 0
+    - isActive: 1
+    - isActive: 0
+    - isActive: 1
+    activePoints: 4
+    minimumScore: 0
+    minimumLevel: 0
+    defaultWeight: 1
+  - size: {x: 2, y: 3}
+    points:
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    - isActive: 0
+    - isActive: 1
+    - isActive: 0
+    activePoints: 4
+    minimumScore: 0
+    minimumLevel: 0
+    defaultWeight: 1
+  - size: {x: 2, y: 3}
+    points:
+    - isActive: 0
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    - isActive: 0
+    activePoints: 4
+    minimumScore: 100
+    minimumLevel: 5
+    defaultWeight: 1
+  - size: {x: 3, y: 2}
+    points:
+    - isActive: 0
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    - isActive: 0
+    activePoints: 4
+    minimumScore: 100
+    minimumLevel: 0
+    defaultWeight: 1
+  - size: {x: 2, y: 3}
+    points:
+    - isActive: 1
+    - isActive: 0
+    - isActive: 1
+    - isActive: 1
+    - isActive: 0
+    - isActive: 1
+    activePoints: 4
+    minimumScore: 100
+    minimumLevel: 0
+    defaultWeight: 1
+  - size: {x: 3, y: 2}
+    points:
+    - isActive: 1
+    - isActive: 1
+    - isActive: 0
+    - isActive: 0
+    - isActive: 1
+    - isActive: 1
+    activePoints: 4
+    minimumScore: 100
+    minimumLevel: 0
+    defaultWeight: 1
+  - size: {x: 2, y: 2}
+    points:
+    - isActive: 0
+    - isActive: 1
+    - isActive: 1
+    - isActive: 0
+    activePoints: 2
+    minimumScore: 200
+    minimumLevel: 0
+    defaultWeight: 0
+  - size: {x: 2, y: 2}
+    points:
+    - isActive: 1
+    - isActive: 0
+    - isActive: 0
+    - isActive: 1
+    activePoints: 2
+    minimumScore: 200
+    minimumLevel: 0
+    defaultWeight: 0
+  - size: {x: 3, y: 3}
+    points:
+    - isActive: 1
+    - isActive: 1
+    - isActive: 1
+    - isActive: 0
+    - isActive: 1
+    - isActive: 0
+    - isActive: 0
+    - isActive: 1
+    - isActive: 0
+    activePoints: 5
+    minimumScore: 2500
+    minimumLevel: 0
+    defaultWeight: 0
+  - size: {x: 3, y: 3}
+    points:
+    - isActive: 0
+    - isActive: 0
+    - isActive: 1
+    - isActive: 0
+    - isActive: 1
+    - isActive: 0
+    - isActive: 1
+    - isActive: 0
+    - isActive: 0
+    activePoints: 3
+    minimumScore: 5000
+    minimumLevel: 0
+    defaultWeight: 0
+  - size: {x: 3, y: 3}
+    points:
+    - isActive: 1
+    - isActive: 0
+    - isActive: 0
+    - isActive: 0
+    - isActive: 1
+    - isActive: 0
+    - isActive: 0
+    - isActive: 0
+    - isActive: 1
+    activePoints: 3
+    minimumScore: 5000
+    minimumLevel: 0
+    defaultWeight: 0
+  collectables:
+  - id: Crystal 1
+    icon: {fileID: 21300000, guid: fd050dd785dc4d040bdccbf37c06b6a9, type: 3}
+    pickAudioClip: {fileID: 0}
+  - id: Crystal 2
+    icon: {fileID: 21300000, guid: 665462c49651df048b7fa202b6f8b94e, type: 3}
+    pickAudioClip: {fileID: 0}
+  - id: Crystal 3
+    icon: {fileID: 21300000, guid: 872c1bbff0a2f6349b8baf193195fbbf, type: 3}
+    pickAudioClip: {fileID: 0}
+  - id: Crystal 4
+    icon: {fileID: 21300000, guid: 3d9ab7a3e882412418b9b1fb0552f4bd, type: 3}
+    pickAudioClip: {fileID: 0}
+  - id: Crystal 5
+    icon: {fileID: 21300000, guid: 1209e834dc1cc3544bb3a142bc4cdbf5, type: 3}
+    pickAudioClip: {fileID: 0}

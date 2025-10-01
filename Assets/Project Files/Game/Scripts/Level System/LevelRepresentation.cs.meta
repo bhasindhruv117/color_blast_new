@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3b31d5a6b14dc3f448f3277d7e202ec9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 313175
+  packageName: Blast Puzzle | Template + Editor
+  packageVersion: 1.0.6
+  assetPath: Assets/Project Files/Game/Scripts/Level System/LevelRepresentation.cs
+  uploadId: 759273

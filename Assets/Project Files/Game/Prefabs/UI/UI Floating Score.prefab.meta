@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 118093f754be2604fa61c8804ac046d1
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 313175
+  packageName: Blast Puzzle | Template + Editor
+  packageVersion: 1.0.6
+  assetPath: Assets/Project Files/Game/Prefabs/UI/UI Floating Score.prefab
+  uploadId: 759273

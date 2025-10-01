@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5f1de49413914ae44bd46127a62520e0
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 313175
+  packageName: Blast Puzzle | Template + Editor
+  packageVersion: 1.0.6
+  assetPath: Assets/Project Files/Game/Prefabs/Settings/UI Settings.prefab
+  uploadId: 759273

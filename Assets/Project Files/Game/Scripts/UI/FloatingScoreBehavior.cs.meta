@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5c6d808a7f8456c439650d406b8f2e37
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 313175
+  packageName: Blast Puzzle | Template + Editor
+  packageVersion: 1.0.6
+  assetPath: Assets/Project Files/Game/Scripts/UI/FloatingScoreBehavior.cs
+  uploadId: 759273

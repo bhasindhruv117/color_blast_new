@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2948aa99de749924ea1a7d1292c4263d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 313175
+  packageName: Blast Puzzle | Template + Editor
+  packageVersion: 1.0.6
+  assetPath: Assets/Project Files/Game/Prefabs/Level/Score Floating Text.prefab
+  uploadId: 759273

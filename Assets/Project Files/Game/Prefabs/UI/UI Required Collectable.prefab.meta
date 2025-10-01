@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 560d45953b0121c4987e55dd8abdd2d3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 313175
+  packageName: Blast Puzzle | Template + Editor
+  packageVersion: 1.0.6
+  assetPath: Assets/Project Files/Game/Prefabs/UI/UI Required Collectable.prefab
+  uploadId: 759273

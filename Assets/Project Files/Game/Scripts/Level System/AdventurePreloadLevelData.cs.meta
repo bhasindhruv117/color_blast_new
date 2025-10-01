@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e9aa5ffd7e5c1e34385d94b1a86cb9b7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 313175
+  packageName: Blast Puzzle | Template + Editor
+  packageVersion: 1.0.6
+  assetPath: Assets/Project Files/Game/Scripts/Level System/AdventurePreloadLevelData.cs
+  uploadId: 759273

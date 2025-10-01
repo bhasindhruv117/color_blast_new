@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71d70a14c5eb5be49ac435550e01fa21, type: 3}
+  m_Name: Level Skin Database
+  m_EditorClassIdentifier: 
+  skins:
+  - id: 8d5cf879-20b7-42f5-8df1-333166ec361f
+    previewSprite: {fileID: 21300000, guid: 70edca3a86c19474a8b24af7d6f67723, type: 3}
+    sprites:
+    - type: 0
+      sprite: {fileID: 21300000, guid: 70edca3a86c19474a8b24af7d6f67723, type: 3}
+      previewOutlineColor: {r: 1, g: 0, b: 0, a: 1}
+      previewParticleColor: {r: 1, g: 0, b: 0, a: 1}
+      burstParticleColor: {r: 1, g: 0, b: 0, a: 1}
+    - type: 1
+      sprite: {fileID: 21300000, guid: d71e0bc138746f34d958f71fd363ea32, type: 3}
+      previewOutlineColor: {r: 1, g: 0.51359504, b: 0, a: 1}
+      previewParticleColor: {r: 1, g: 0.5137255, b: 0, a: 1}
+      burstParticleColor: {r: 1, g: 0.5137255, b: 0, a: 1}
+    - type: 2
+      sprite: {fileID: 21300000, guid: c0a93786afd84b84889a80190b02ff58, type: 3}
+      previewOutlineColor: {r: 1, g: 0.86742973, b: 0, a: 1}
+      previewParticleColor: {r: 1, g: 0.8666667, b: 0, a: 1}
+      burstParticleColor: {r: 1, g: 0.8666667, b: 0, a: 1}
+    - type: 3
+      sprite: {fileID: 21300000, guid: 74e78007772f28a45935f03360a19da4, type: 3}
+      previewOutlineColor: {r: 0.21603727, g: 1, b: 0, a: 1}
+      previewParticleColor: {r: 0.21568628, g: 1, b: 0, a: 1}
+      burstParticleColor: {r: 0.21568628, g: 1, b: 0, a: 1}
+    - type: 4
+      sprite: {fileID: 21300000, guid: d0fcf0b1d592347448ca3d8041d918d8, type: 3}
+      previewOutlineColor: {r: 0, g: 0.8869717, b: 1, a: 1}
+      previewParticleColor: {r: 0, g: 0.8862745, b: 1, a: 1}
+      burstParticleColor: {r: 0, g: 0.8862745, b: 1, a: 1}
+    - type: 5
+      sprite: {fileID: 21300000, guid: 50afc3c8ab139904d9d985cb0ed92a90, type: 3}
+      previewOutlineColor: {r: 0, g: 0.41917753, b: 1, a: 1}
+      previewParticleColor: {r: 0, g: 0.41960785, b: 1, a: 1}
+      burstParticleColor: {r: 0, g: 0.41960785, b: 1, a: 1}
+    - type: 6
+      sprite: {fileID: 21300000, guid: ff8b15d44190a5e4c93d864b3bb4a53f, type: 3}
+      previewOutlineColor: {r: 0.589921, g: 0, b: 1, a: 1}
+      previewParticleColor: {r: 0.5882353, g: 0, b: 1, a: 1}
+      burstParticleColor: {r: 0.5882353, g: 0, b: 1, a: 1}
+    specialSprite: {fileID: 21300000, guid: bf5b08e620090d24093852d732409f6b, type: 3}
+    completeSprite: {fileID: 21300000, guid: c0a93786afd84b84889a80190b02ff58, type: 3}
+  - id: 249c266a-b910-4398-9d68-511f09555e34
+    previewSprite: {fileID: 21300000, guid: 7941cc49b1305434da5b05148e0f6f7e, type: 3}
+    sprites:
+    - type: 0
+      sprite: {fileID: 21300000, guid: 7941cc49b1305434da5b05148e0f6f7e, type: 3}
+      previewOutlineColor: {r: 1, g: 0, b: 0, a: 1}
+      previewParticleColor: {r: 1, g: 0, b: 0, a: 1}
+      burstParticleColor: {r: 1, g: 0, b: 0, a: 1}
+    - type: 1
+      sprite: {fileID: 21300000, guid: fcd8a838675b2fb469d31f732a02baf3, type: 3}
+      previewOutlineColor: {r: 1, g: 0.5137255, b: 0, a: 1}
+      previewParticleColor: {r: 1, g: 0.5137255, b: 0, a: 1}
+      burstParticleColor: {r: 1, g: 0.5137255, b: 0, a: 1}
+    - type: 2
+      sprite: {fileID: 21300000, guid: 635b0178daafc464290ad0a08cf3d479, type: 3}
+      previewOutlineColor: {r: 1, g: 0.8666667, b: 0, a: 1}
+      previewParticleColor: {r: 1, g: 0.8666667, b: 0, a: 1}
+      burstParticleColor: {r: 1, g: 0.8666667, b: 0, a: 1}
+    - type: 3
+      sprite: {fileID: 21300000, guid: ae204be2686b925409005d4f147bd6c4, type: 3}
+      previewOutlineColor: {r: 0.21568628, g: 1, b: 0, a: 1}
+      previewParticleColor: {r: 0.21568628, g: 1, b: 0, a: 1}
+      burstParticleColor: {r: 0.21568628, g: 1, b: 0, a: 1}
+    - type: 4
+      sprite: {fileID: 21300000, guid: d913114d9b17690479aed81fb8e8a895, type: 3}
+      previewOutlineColor: {r: 0, g: 0.8862745, b: 1, a: 1}
+      previewParticleColor: {r: 0, g: 0.8862745, b: 1, a: 1}
+      burstParticleColor: {r: 0, g: 0.8862745, b: 1, a: 1}
+    - type: 5
+      sprite: {fileID: 21300000, guid: b22bf156bb17fef44bafd3e3561d3f6b, type: 3}
+      previewOutlineColor: {r: 0, g: 0.41960785, b: 1, a: 1}
+      previewParticleColor: {r: 0, g: 0.41960785, b: 1, a: 1}
+      burstParticleColor: {r: 0, g: 0.41960785, b: 1, a: 1}
+    - type: 6
+      sprite: {fileID: 21300000, guid: a941ca4e4293de04b952c9db6cb1d408, type: 3}
+      previewOutlineColor: {r: 0.5882353, g: 0, b: 1, a: 1}
+      previewParticleColor: {r: 0.5882353, g: 0, b: 1, a: 1}
+      burstParticleColor: {r: 0.5882353, g: 0, b: 1, a: 1}
+    specialSprite: {fileID: 21300000, guid: 8bbcf2f60b8a4614ca2033911bf262db, type: 3}
+    completeSprite: {fileID: 21300000, guid: 635b0178daafc464290ad0a08cf3d479, type: 3}

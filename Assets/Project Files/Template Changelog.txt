@@ -1,0 +1,21 @@
+v1.0.6
+Template: No-ads pop up fix
+
+v1.0.5
+Template: Support of both Unity 2022.3 and Unity 6
+
+v1.0.4
+Fixed issue with the build
+Dev panel now works in the builds as well
+
+v1.0.3
+Removed missing class reference
+
+v1.0.2
+Added new items to the Actions menu
+
+v1.0.1
+Added debug panel - to help you debug the project
+
+v1.0.0
+Release

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bec89cd0575040b48902de4820b128f1
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 313175
+  packageName: Blast Puzzle | Template + Editor
+  packageVersion: 1.0.6
+  assetPath: Assets/Project Files/Game/Prefabs/Particles/Click Particle.prefab
+  uploadId: 759273

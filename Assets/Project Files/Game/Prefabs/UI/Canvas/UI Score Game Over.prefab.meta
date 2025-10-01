@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4340e552867a2624080f499a5432e154
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 313175
+  packageName: Blast Puzzle | Template + Editor
+  packageVersion: 1.0.6
+  assetPath: Assets/Project Files/Game/Prefabs/UI/Canvas/UI Score Game Over.prefab
+  uploadId: 759273

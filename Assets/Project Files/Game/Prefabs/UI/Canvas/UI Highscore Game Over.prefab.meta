@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9718812002f4e6b4498416ea779165d2
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 313175
+  packageName: Blast Puzzle | Template + Editor
+  packageVersion: 1.0.6
+  assetPath: Assets/Project Files/Game/Prefabs/UI/Canvas/UI Highscore Game Over.prefab
+  uploadId: 759273

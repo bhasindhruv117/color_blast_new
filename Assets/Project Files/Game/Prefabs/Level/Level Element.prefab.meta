@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2b89f18be2e37bc4dacd15290e81827e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 313175
+  packageName: Blast Puzzle | Template + Editor
+  packageVersion: 1.0.6
+  assetPath: Assets/Project Files/Game/Prefabs/Level/Level Element.prefab
+  uploadId: 759273

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f0e199e387980eb4cae43c35c5401805
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 313175
+  packageName: Blast Puzzle | Template + Editor
+  packageVersion: 1.0.6
+  assetPath: Assets/Project Files/Game/Materials/Level Map/Map Wall Universal.mat
+  uploadId: 759273

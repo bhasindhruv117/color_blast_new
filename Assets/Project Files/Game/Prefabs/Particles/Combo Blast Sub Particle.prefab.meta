@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cc2d1b273fbfd9144b551af013157dc6
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 313175
+  packageName: Blast Puzzle | Template + Editor
+  packageVersion: 1.0.6
+  assetPath: Assets/Project Files/Game/Prefabs/Particles/Combo Blast Sub Particle.prefab
+  uploadId: 759273

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 133f611b63fd29a4895c491ca67d3ad7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 313175
+  packageName: Blast Puzzle | Template + Editor
+  packageVersion: 1.0.6
+  assetPath: Assets/Watermelon Core/Modules/Save/Scripts/Editor/SavePresetsWindow.cs
+  uploadId: 759273

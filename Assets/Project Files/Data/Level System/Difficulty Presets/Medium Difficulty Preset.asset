@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c16cdd366ab97447b503cc5e5df8553, type: 3}
+  m_Name: Medium Difficulty Preset
+  m_EditorClassIdentifier: 
+  dockSpawnSettings:
+  - targetScore: 0
+    perfectPlacementChance: 1
+  - targetScore: 20
+    perfectPlacementChance: 1
+  - targetScore: 100
+    perfectPlacementChance: 0.88
+  - targetScore: 200
+    perfectPlacementChance: 0.75
+  - targetScore: 500
+    perfectPlacementChance: 0.7
+  - targetScore: 1000
+    perfectPlacementChance: 0.65
+  - targetScore: 2000
+    perfectPlacementChance: 0.6
+  - targetScore: 5000
+    perfectPlacementChance: 0.5
