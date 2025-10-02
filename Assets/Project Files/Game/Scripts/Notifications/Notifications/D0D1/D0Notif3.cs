@@ -41,6 +41,6 @@ public class D0Notif3 : BaseLocalNotification
 
     public override bool CanScheduleNotification()
     {
-        return true;
+        return Util.GetCohortFromInstall() <= 1;
     }
 }

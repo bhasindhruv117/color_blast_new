@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
 
     private void Initialize()
     {
+        Util.SetInstallTime();
         var localNotifications = LocalNotifications.Instance;
     }
 }
