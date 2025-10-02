@@ -13,14 +13,13 @@ MonoBehaviour:
   m_Name: Monetization Settings
   m_EditorClassIdentifier: 
   iapSettings: {fileID: 1569315140361065267}
-  adsSettings: {fileID: 1338303973460554233}
   isModuleActive: 1
   verboseLogging: 0
   debugMode: 0
   testDevices:
   - 91687A6357C9E0169C1471C98D0237EB
-  privacyLink: https://mywebsite.com/privacy
-  termsOfUseLink: https://mywebsite.com/terms
+  privacyLink: https://gamebrosinteractive.in/privacy-policy.html
+  termsOfUseLink: https://gamebrosinteractive.in/privacy-policy.html
 --- !u!114 &1338303973460554233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97,6 +96,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f28faf74e3de2b4bb5f8724582e5ceb, type: 3}
   m_Name: IAP Settings
   m_EditorClassIdentifier: 
+  useFakeStore: 0
+  fakeStoreMode: 0
   storeItems:
   - androidID: com.example.game.noads
     iOSID: com.example.game.noads

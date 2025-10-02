@@ -14,7 +14,7 @@ namespace Watermelon
         private SerializedProperty iapSettingsProperty;
 
         private GUIContent[] tabs;
-        private static int currentTab = 0;
+        private static int currentTab = 1;
 
         private Editor tabEditor;
 
