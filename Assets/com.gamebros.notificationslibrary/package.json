@@ -1,0 +1,25 @@
+{
+    "name": "com.gamebros.notificationslibrary",
+    "version": "1.0.0",
+    "displayName": "Notifications Library",
+    "description": "This package handles the notification logic of a game",
+    "unity": "2022.4",
+    "documentationUrl": "https://github.com/bhasindhruv117/NotificationsLibrary",
+    "changelogUrl": "https://github.com/bhasindhruv117/NotificationsLibrary",
+    "licensesUrl": "https://github.com/bhasindhruv117/NotificationsLibrary",
+    "dependencies":
+    {
+        "com.unity.mobile.notifications": "2.4.0"
+    },
+    "keywords":
+    [
+        "notifications",
+        "mobile"
+    ],
+    "author":
+    {
+        "name": "Dhruv Bhasin",
+        "email": "bhasindhruv11797@gmail.com",
+        "url": "https://github.com/bhasindhruv117"
+    }
+}
