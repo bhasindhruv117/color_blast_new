@@ -137,12 +137,6 @@ namespace Watermelon
 
             SerializedProperty adsProperty = serializedObject.FindProperty("adsSettings");
 
-            // Create ads object
-            AdsSettings adsSettings = ScriptableObject.CreateInstance<AdsSettings>();
-            adsSettings.name = "Ads Settings";
-
-            AssetDatabase.AddObjectToAsset(adsSettings, monetizationSettings);
-
             SerializedProperty iapProperty = serializedObject.FindProperty("iapSettings");
 
             // Create IAP object
@@ -154,7 +148,6 @@ namespace Watermelon
             serializedObject.Update();
 
             iapProperty.objectReferenceValue = iapSettings;
-            adsProperty.objectReferenceValue = adsSettings;
 
             serializedObject.ApplyModifiedProperties();
 

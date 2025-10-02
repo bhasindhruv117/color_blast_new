@@ -90,13 +90,27 @@ namespace Watermelon
         private void OnReviveButtonClicked()
         {
             AudioController.PlaySound(AudioController.AudioClips.buttonSound);
+            AdsManager.Instance.OnRewardedAdWatchSuccessFull += OnRewardedAdWatchSuccessFull;
+            AdsManager.Instance.OnRewardedAdWatchFailed += OnRewardedAdWatchFailed;
+            AdsManager.Instance.ShowRewardedAd();
+        }
 
-            AdsManager.ShowRewardBasedVideo((reward) =>
-            {
-                Hide();
+        private void OnRewardedAdWatchFailed()
+        {
+            Hide();
 
-                closeCallback?.Invoke(reward);
-            });
+            closeCallback?.Invoke(false);
+            AdsManager.Instance.OnRewardedAdWatchSuccessFull -= OnRewardedAdWatchSuccessFull;
+            AdsManager.Instance.OnRewardedAdWatchFailed -= OnRewardedAdWatchFailed;
+        }
+
+        private void OnRewardedAdWatchSuccessFull()
+        {
+            Hide();
+
+            closeCallback?.Invoke(true);
+            AdsManager.Instance.OnRewardedAdWatchSuccessFull -= OnRewardedAdWatchSuccessFull;
+            AdsManager.Instance.OnRewardedAdWatchFailed -= OnRewardedAdWatchFailed;
         }
     }
 }

@@ -8,9 +8,6 @@ namespace Watermelon
         [SerializeField, Hide] IAPSettings iapSettings;
         public IAPSettings IAPSettings => iapSettings;
 
-        [SerializeField, Hide] AdsSettings adsSettings;
-        public AdsSettings AdsSettings => adsSettings;
-
         [SerializeField, Hide] bool isModuleActive = true;
         public bool IsModuleActive => isModuleActive;
 

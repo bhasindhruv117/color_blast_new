@@ -36,8 +36,6 @@ namespace Watermelon
         {
             if(productKeyType == ProductKeyType.NoAds)
             {
-                AdsManager.DisableForcedAd();
-
                 gameObject.SetActive(false);
             }
         }

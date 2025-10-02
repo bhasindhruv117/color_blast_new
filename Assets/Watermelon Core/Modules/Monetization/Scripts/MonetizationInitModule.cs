@@ -12,8 +12,6 @@ namespace Watermelon
         public override void CreateComponent()
         {
             Monetization.Init(settings);
-
-            AdsManager.Init(settings);
             IAPManager.Init(settings);
         }
     }

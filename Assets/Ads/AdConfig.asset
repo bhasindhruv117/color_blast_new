@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88bff2a5a848dbb40bc8113c0a0383f3, type: 3}
+  m_Name: AdConfig
+  m_EditorClassIdentifier: 
+  iOSAppKey: YOUR_IOS_APP_KEY
+  androidAppKey: 23be1134d
+  testMode: 0
+  launchTestSuite: 0
+  interstitialAdUnitId: rsdsjbj5ap25jab3
+  bannerAdUnitId: xzf0ec6kl4kwwrx7
+  rewardedAdUnitId: vfnnl3ld5hio3egi
+  autoLoadBannerOnInit: 1
+  bannerWidth: 320
+  bannerHeight: 50
+  autoLoadInterstitialOnInit: 1
+  autoLoadInterstitialAfterShow: 1
+  autoLoadRewardedOnInit: 1
+  autoLoadRewardedAfterShow: 1
+  useInterstitialAsFallback: 1
+  rewardedAdCompletedEventName: OnRewardedAdCompleted

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -124,6 +125,8 @@ namespace Watermelon.SkinStore
             return true;
         }
 
+        private Action rewardHandler;
+
         public bool BuyProduct(SkinStoreProductContainer container, bool select = true, bool free = false)
         {
             if (container.IsUnlocked)
@@ -144,20 +147,20 @@ namespace Watermelon.SkinStore
             // right now result of this method is not used, but otherwise this logic needs to be improved
             else if(container.ProductData.PurchType == SkinStoreProductData.PurchaseType.RewardedVideo)
             {
-                AdsManager.ShowRewardBasedVideo((success) =>
+                rewardHandler = () =>
                 {
-                    if(success)
+                    container.ProductData.RewardedVideoWatchedAmount++;
+
+                    if(container.ProductData.RewardedVideoWatchedAmount >= container.ProductData.Cost)
                     {
-                        container.ProductData.RewardedVideoWatchedAmount++;
-
-                        if(container.ProductData.RewardedVideoWatchedAmount >= container.ProductData.Cost)
-                        {
-                            UnlockAndSelect(container, select);
-                        }
-
-                        storeUI.InitStoreUI();
+                        UnlockAndSelect(container, select);
                     }
-                });
+
+                    storeUI.InitStoreUI();
+                    AdsManager.Instance.OnRewardedAdWatchSuccessFull -= rewardHandler;
+                };
+                AdsManager.Instance.OnRewardedAdWatchSuccessFull += rewardHandler;
+                AdsManager.Instance.ShowRewardedAd();
             }
 
             return false;

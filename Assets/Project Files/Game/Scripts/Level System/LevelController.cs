@@ -636,7 +636,7 @@ namespace Watermelon
         {
             IsGameActive = false;
 
-            AdsManager.ShowInterstitial(null);
+            AdsManager.Instance.ShowInterstitialAd();
 
             LevelAnimation levelSpawnAnimation = levelDatabase.FailAnimation;
             if (levelSpawnAnimation != null)
@@ -718,7 +718,7 @@ namespace Watermelon
 
             levelController.delayTweenCase = Tween.DelayedCall(delay, () =>
             {
-                AdsManager.ShowInterstitial(null);
+                AdsManager.Instance.ShowInterstitialAd();
 
                 AudioController.PlaySound(AudioController.AudioClips.levelComplete);
 

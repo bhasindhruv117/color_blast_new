@@ -93,10 +93,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000002, guid: ae269e098a4510b4ca2fbb0376357277,
-    type: 2}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: a5cd7c11b21cf224cb4d07dd7e72bdbf,
-    type: 2}
+  m_LightingDataAsset: {fileID: 112000002, guid: ae269e098a4510b4ca2fbb0376357277, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: a5cd7c11b21cf224cb4d07dd7e72bdbf, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -179,7 +177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5, g: 0.6, b: 1, a: 1}
+  m_Color: {r: 0.5019608, g: 0.6, b: 1, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -287,58 +285,47 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1876513780506169954, guid: d10ab2178ab6ad54c9c243f98e858184,
-        type: 3}
+    - target: {fileID: 1876513780506169954, guid: d10ab2178ab6ad54c9c243f98e858184, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1876513780506169954, guid: d10ab2178ab6ad54c9c243f98e858184,
-        type: 3}
+    - target: {fileID: 1876513780506169954, guid: d10ab2178ab6ad54c9c243f98e858184, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1876513780506169954, guid: d10ab2178ab6ad54c9c243f98e858184,
-        type: 3}
+    - target: {fileID: 1876513780506169954, guid: d10ab2178ab6ad54c9c243f98e858184, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1876513780506169954, guid: d10ab2178ab6ad54c9c243f98e858184,
-        type: 3}
+    - target: {fileID: 1876513780506169954, guid: d10ab2178ab6ad54c9c243f98e858184, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1876513780506169954, guid: d10ab2178ab6ad54c9c243f98e858184,
-        type: 3}
+    - target: {fileID: 1876513780506169954, guid: d10ab2178ab6ad54c9c243f98e858184, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1876513780506169954, guid: d10ab2178ab6ad54c9c243f98e858184,
-        type: 3}
+    - target: {fileID: 1876513780506169954, guid: d10ab2178ab6ad54c9c243f98e858184, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1876513780506169954, guid: d10ab2178ab6ad54c9c243f98e858184,
-        type: 3}
+    - target: {fileID: 1876513780506169954, guid: d10ab2178ab6ad54c9c243f98e858184, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1876513780506169954, guid: d10ab2178ab6ad54c9c243f98e858184,
-        type: 3}
+    - target: {fileID: 1876513780506169954, guid: d10ab2178ab6ad54c9c243f98e858184, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1876513780506169954, guid: d10ab2178ab6ad54c9c243f98e858184,
-        type: 3}
+    - target: {fileID: 1876513780506169954, guid: d10ab2178ab6ad54c9c243f98e858184, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1876513780506169954, guid: d10ab2178ab6ad54c9c243f98e858184,
-        type: 3}
+    - target: {fileID: 1876513780506169954, guid: d10ab2178ab6ad54c9c243f98e858184, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2222374370283639745, guid: d10ab2178ab6ad54c9c243f98e858184,
-        type: 3}
+    - target: {fileID: 2222374370283639745, guid: d10ab2178ab6ad54c9c243f98e858184, type: 3}
       propertyPath: m_Name
       value: Initializer
       objectReference: {fileID: 0}
@@ -415,8 +402,7 @@ MonoBehaviour:
   m_text: Loading..
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 499cf83f07b1eca49b41b4b547540c38, type: 2}
-  m_sharedMaterial: {fileID: 7543850439555462583, guid: 499cf83f07b1eca49b41b4b547540c38,
-    type: 2}
+  m_sharedMaterial: {fileID: 7543850439555462583, guid: 499cf83f07b1eca49b41b4b547540c38, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

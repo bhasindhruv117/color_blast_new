@@ -36,12 +36,12 @@ namespace Watermelon
 
         private void OnEnable()
         {
-            AdsManager.ForcedAdDisabled += ForceAdPurchased;
+            // AdsManager.ForcedAdDisabled += ForceAdPurchased;
         }
 
         private void OnDisable()
         {
-            AdsManager.ForcedAdDisabled -= ForceAdPurchased;
+            // AdsManager.ForcedAdDisabled -= ForceAdPurchased;
         }
 
         public override void Init()
@@ -96,7 +96,7 @@ namespace Watermelon
 
         private void ShowAdButton(bool immediately = false)
         {
-            if (AdsManager.IsForcedAdEnabled())
+            if (true)
             {
                 noAdsButton.Show(immediately);
             }
@@ -108,7 +108,7 @@ namespace Watermelon
 
         private void HideAdButton(bool immediately = false)
         {
-            if(AdsManager.IsForcedAdEnabled())
+            if(true)
             {
                 noAdsButton.Hide(immediately);
             }

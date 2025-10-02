@@ -7,8 +7,6 @@ namespace Watermelon
         public static bool VerboseLogging { get; private set; }
 
         public static MonetizationSettings Settings { get; private set; }
-
-        public static AdsSettings AdsSettings => Settings.AdsSettings;
         public static IAPSettings IAPSettings => Settings.IAPSettings;
 
         public static void Init(MonetizationSettings settings)

@@ -97,6 +97,8 @@ namespace Watermelon.SkinStore
         private void OnDestroy()
         {
             PoolManager.DestroyPool(storeItemPool);
+            AdsManager.Instance.OnRewardedAdWatchSuccessFull -= OnRewardedAdWatchSuccessFull;
+            AdsManager.Instance.OnRewardedAdWatchFailed -= OnRewardedAdWatchFailed;
         }
 
         public override void PlayShowAnimation()
@@ -119,13 +121,13 @@ namespace Watermelon.SkinStore
             closeButton.transform.localScale = Vector3.zero;
             closeButton.DOScale(1, 0.3f).SetEasing(Ease.Type.SineOut);
 
-            coinsForAdsButton.gameObject.SetActive(AdsManager.Settings.RewardedVideoType != AdProvider.Disable);
+            coinsForAdsButton.gameObject.SetActive(AdsManager.Instance.IsRewardedAdAvailable);
             coinsForAdsButton.interactable = true;
             coinsForAdsCurrencyImage.sprite = rewardForAdsCurrency.Icon;
 
             currencyPanelFade.Show(0.3f, immediately: true);
 
-            AdsManager.HideBanner();
+            AdsManager.Instance.HideBannerAd();
         }
 
         public void InitStoreUI(bool resetScroll = false)
@@ -232,7 +234,7 @@ namespace Watermelon.SkinStore
                 {
                     UIController.OnPageClosed(this);
 
-                    AdsManager.ShowBanner();
+                    AdsManager.Instance.ShowBannerAd();
                 });
             });
 
@@ -277,24 +279,30 @@ namespace Watermelon.SkinStore
         {
             coinsForAdsButton.interactable = false;
 
-            AdsManager.ShowRewardBasedVideo((bool success) =>
+            AdsManager.Instance.OnRewardedAdWatchSuccessFull += OnRewardedAdWatchSuccessFull;
+            AdsManager.Instance.OnRewardedAdWatchFailed += OnRewardedAdWatchFailed;
+            AdsManager.Instance.ShowRewardedAd();
+        }
+
+        private void OnRewardedAdWatchFailed()
+        {
+            coinsForAdsButton.interactable = true;
+            AdsManager.Instance.OnRewardedAdWatchSuccessFull -= OnRewardedAdWatchSuccessFull;
+            AdsManager.Instance.OnRewardedAdWatchFailed -= OnRewardedAdWatchFailed;
+        }
+
+        private void OnRewardedAdWatchSuccessFull()
+        {
+            FloatingCloud.SpawnCurrency(rewardForAdsCurrency.CurrencyType.ToString(), coinsForAdsText.rectTransform, currencyPanel.RectTransform, 20, "", () =>
             {
-                if (success)
-                {
-                    FloatingCloud.SpawnCurrency(rewardForAdsCurrency.CurrencyType.ToString(), coinsForAdsText.rectTransform, currencyPanel.RectTransform, 20, "", () =>
-                    {
-                        CurrencyController.Add(rewardForAdsCurrency.CurrencyType, Controller.CoinsForAdsAmount);
+                CurrencyController.Add(rewardForAdsCurrency.CurrencyType, Controller.CoinsForAdsAmount);
 
-                        UpdateCurrentPage(true);
+                UpdateCurrentPage(true);
 
-                        coinsForAdsButton.interactable = true;
-                    });
-                }
-                else
-                {
-                    coinsForAdsButton.interactable = true;
-                }
+                coinsForAdsButton.interactable = true;
             });
+            AdsManager.Instance.OnRewardedAdWatchSuccessFull -= OnRewardedAdWatchSuccessFull;
+            AdsManager.Instance.OnRewardedAdWatchFailed -= OnRewardedAdWatchFailed;
         }
 
         public void CloseButton()

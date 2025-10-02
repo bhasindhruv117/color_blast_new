@@ -36,6 +36,8 @@ namespace Watermelon
         private void OnDisable()
         {
             LivesSystem.StatusChanged -= OnStatusChanged;
+            AdsManager.Instance.OnRewardedAdWatchSuccessFull -= OnRewardedAdWatchSuccessFull;
+            AdsManager.Instance.OnRewardedAdWatchFailed -= OnRewardedAdWatchFailed;
         }
 
         public override void Init()
@@ -100,20 +102,27 @@ namespace Watermelon
 
         public void OnButtonClick()
         {
-            AdsManager.ShowRewardBasedVideo(success =>
-            {
-                UIController.HidePage<UIAddLivesPanel>();
+            AdsManager.Instance.OnRewardedAdWatchSuccessFull += OnRewardedAdWatchSuccessFull;
+            AdsManager.Instance.OnRewardedAdWatchFailed += OnRewardedAdWatchFailed;
+            AdsManager.Instance.ShowRewardedAd();
+        }
 
-                if (success)
-                {
-                    LivesSystem.AddLife(1, true);
+        private void OnRewardedAdWatchFailed()
+        {
+            UIController.HidePage<UIAddLivesPanel>();
+            AdsManager.Instance.OnRewardedAdWatchFailed -= OnRewardedAdWatchFailed;
+            AdsManager.Instance.OnRewardedAdWatchSuccessFull -= OnRewardedAdWatchSuccessFull;
+        }
 
-                    if (lifeRecievedAudio != null)
-                        AudioController.PlaySound(lifeRecievedAudio);
-
-                    panelClosed?.Invoke(true);
-                }
-            });
+        private void OnRewardedAdWatchSuccessFull()
+        {
+            UIController.HidePage<UIAddLivesPanel>();
+            LivesSystem.AddLife(1, true);
+            if (lifeRecievedAudio != null)
+                AudioController.PlaySound(lifeRecievedAudio);
+            panelClosed?.Invoke(true);
+            AdsManager.Instance.OnRewardedAdWatchFailed -= OnRewardedAdWatchFailed;
+            AdsManager.Instance.OnRewardedAdWatchSuccessFull -= OnRewardedAdWatchSuccessFull;
         }
 
         public static void Show(SimpleBoolCallback onPanelClosed = null)
