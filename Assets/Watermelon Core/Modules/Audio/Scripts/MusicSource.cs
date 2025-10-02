@@ -24,11 +24,16 @@ namespace Watermelon
 
         private void Awake()
         {
+            if (activeMusicSource != null) {
+                Destroy(this.gameObject);
+                return;
+            }
             if(activateAutomatically)
             {
                 Init();
                 Activate();
             }
+            DontDestroyOnLoad(gameObject);
         }
 
         public void Init()

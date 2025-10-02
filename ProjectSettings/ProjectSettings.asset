@@ -264,7 +264,7 @@ PlayerSettings:
   useCustomProguardFile: 1
   AndroidTargetArchitectures: 3
   AndroidSplashScreenScale: 2
-  androidSplashScreen: {fileID: 2800000, guid: 0ddaa7a89ed007a49901d8cf8f396f08, type: 3}
+  androidSplashScreen: {fileID: 2800000, guid: ab6b1921ec38e3c4e9a7e3667f61299f, type: 3}
   AndroidKeystoreName: '{inproject}: release.keystore'
   AndroidKeyaliasName: block_connect
   AndroidEnableArmv9SecurityFeatures: 0
